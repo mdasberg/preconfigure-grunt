@@ -1,0 +1,45 @@
+{
+  "name": "preconfigure-grunt",
+  "description": "Node plugin for configuring the configuration of grunt before grunt is initialized",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mdasberg/preconfigure-grunt",
+  "author": {
+    "name": "Mischa Dasberg",
+    "email": "mischa@dasberg.nl"
+  },
+  "contributors": [
+    "Chris Quach <chris@quach.nl>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mdasberg/preconfigure-grunt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mdasberg/preconfigure-grunt/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mdasberg/preconfigure-grunt/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "jasmine-node": "^1.14.5"
+  },
+  "peerDependencies": {},
+  "keywords": [
+    "node plugin"
+  ],
+  "dependencies": {
+    "exit": "^0.1.2",
+    "glob": "^5.0.3",
+    "lodash": "^3.6.0"
+  }
+}
